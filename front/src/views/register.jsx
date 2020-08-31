@@ -1,11 +1,15 @@
 import React from 'react';
 import { useContext } from 'react';
 import { Context } from '../store/appContext';
+import Navbar from '../components/navbar';
 
 const Register = props => {
     const { store, actions } = useContext(Context);
+
     return (
         <div className="registeiner gralmt col-md-6 offset-md-3 col-xs-12 mt-5">
+            <Navbar/>
+            
             <h1>Register</h1>
             <form onSubmit={e => actions.register(e, props.history)}>
                 <div className="form-group">

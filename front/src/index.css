@@ -2,11 +2,14 @@
     position: fixed;
 }
 
-/* Log In */
 
-#AlllogIn{
+#allLogIn,
+#allHome,
+#allTemplates{
     margin-top: 56px;
 }
+
+/* #### Log In #### */
 
 #container-logIn{
     padding-top: 80px;
@@ -24,4 +27,48 @@ h1.ligIn{
 }
 
 
+/* ### templates ### */
+#allTemplates{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
+.templates{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Mega Store */
+
+.headerMegaStore .preheaderMegaStore-menu .preheaderMegaStore-menu-item > a {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #fff !important;
+}
+
+.headerMegaStore .preheaderMegaStore .preheaderMegaStore-menu {
+    text-align: right;
+}
+
+.trsn, 
+.trsn:hover, 
+.trsn:focus, 
+.trsn::before, 
+.trsn::after, 
+button.trsn:hover, 
+select.select, 
+select.select:hover {
+    text-decoration: none !important;
+    -webkit-transition: all 0.2s linear !important;
+    -moz-transition: all 0.2s linear !important;
+    -ms-transition: all 0.2s linear !important;
+    -o-transition: all 0.2s linear !important;
+    transition: all 0.2s linear !important;
+}
+
+.headerMegaStore .preheaderMegaStore-menu > * {
+    font-weight: 300;
+}

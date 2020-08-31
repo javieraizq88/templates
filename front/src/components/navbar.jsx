@@ -15,6 +15,9 @@ const Navbar = props => {
                     <li className="nav-item active">
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/templates">Templates</Link>
+                    </li>
                 </ul>
                 <ul className="navbar-nav ml-auto">
                     {
@@ -35,7 +38,7 @@ const Navbar = props => {
                                     }
                                 </Link>
                                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <Link className="dropdown-item" href="/">Panel de Control</Link>
+                                    <Link className="dropdown-item" href="#">Panel de Control</Link>
                                     <Link className="dropdown-item" href="#">Configuración</Link>
                                     <hr />
                                     <Link className="dropdown-item" href="/" onClick={actions.logout}>Cerrar Sesión</Link>
