@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <Navbar /> */}
+         <Navbar /> 
         <Switch>
           
             <Route exact path="/dashboard/ex3" component={Ex3} />

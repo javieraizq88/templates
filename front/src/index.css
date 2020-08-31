@@ -1,25 +1,27 @@
-#gralmt{
-    margin-top: 56px !important;
+.navbar{
+    position: fixed;
 }
 
-.loginsteiner{
-    background-color: white;
+/* Log In */
+
+#AlllogIn{
+    margin-top: 56px;
 }
 
-.container{
-    background-color: white;
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
+#container-logIn{
+    padding-top: 80px;
 }
 
-/* .row.no-gutters {
-    
-  
-    & > [class^="col-"],
-    & > [class*=" col-"] {
-      padding-right: 0;
-      padding-left: 0;
-    }
-  } */
+#logIn{
+    border: 1px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+h1.ligIn{
+    text-align: center;
+}
+
+
+
