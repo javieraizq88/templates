@@ -1,13 +1,14 @@
 import React from 'react';
 import { useContext } from 'react';
 import { Context } from '../store/appContext';
+import Navbar from '../components/navbar';
 
 const Login = props => {
     const { store, actions } = useContext(Context);
 
     return (
-        <div id="AlllogIn">
-
+        <div id="allLogIn">
+            <Navbar />
             <div className="container" id="container-logIn" >
                 <div className="col-md-6 offset-md-3 col-xs-12" id="logIn" >
                     {

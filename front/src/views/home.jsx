@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../components/navbar';
 
 const Home = () => {
     //     var arr = [2,3,4,3,2,1];
@@ -11,8 +12,10 @@ const Home = () => {
 
     // console.log(repeat);
     return (
-        
-        <h1>Home</h1>
+        <div id="allHome">
+<Navbar/>
+            <h1>Home</h1>
+        </div>
     );
 }
 
