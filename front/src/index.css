@@ -1,0 +1,25 @@
+#gralmt{
+    margin-top: 56px !important;
+}
+
+.loginsteiner{
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* .row.no-gutters {
+    
+  
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  } */
